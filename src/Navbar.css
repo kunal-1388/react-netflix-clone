@@ -1,0 +1,27 @@
+.nav {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 150px;
+  margin-left: 20px;
+  object-fit: contain;
+}
+
+.nav-icon {
+  width: 40px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.nav-visible {
+  background-color: black;
+}
